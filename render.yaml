@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: google-sheets-sync
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python db.py"
+    envVars:
+      DB_HOST: your_database_host
+      DB_USER: your_database_user
+      DB_PASSWORD: your_database_password
+      DB_NAME: your_database_name
+      SPREADSHEET_ID: your_spreadsheet_id

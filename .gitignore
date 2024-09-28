@@ -1,0 +1,23 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore environment variables
+.env
+
+# Ignore all .DS_Store files (macOS)
+.DS_Store
+
+# Ignore temporary files
+temp/
+*.tmp
+
+# Ignore Google Sheets service file
+google_sheets_service.py
+
+#Ignore client_secret
+client_secret.json
